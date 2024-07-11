@@ -146,3 +146,16 @@ nav{
 .products-slider .products::-webkit-scrollbar{
     display: none;
 }
+
+.product-description ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 30px;
+}
+
+.product-stock{
+    margin: 15px 0;
+    color: green;
+    font-weight: 400;
+}
