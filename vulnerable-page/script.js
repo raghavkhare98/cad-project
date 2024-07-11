@@ -6,7 +6,7 @@ claimButton.addEventListener('click', (e) => {
     if(emailInput.value == "" || passInput.value == ""){
         alert("Please enter your email and password to claim coupon");
     } else{
-    alert("Thank you for claiming the coupon! You will receive your exclusive coupon code shortly on your email");
+    alert("Thank you for claiming the coupon! You will receive your exclusive coupon code shortly on your email. You will be redirected to the product page after you press the 'ok' button");
     history.back();
     }
 })
