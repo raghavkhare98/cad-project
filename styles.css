@@ -33,7 +33,7 @@ nav{
     color: grey;
     max-width: 1000px;
     border-radius: 4px;
-    /* margin-right: 5px; */
+    margin-left: 15px;
 }
 
 .nav-search-input{
@@ -58,8 +58,10 @@ nav{
     font-size: 12px;
 }
 
-.nav-text h1{
-    font-size: 14px;
+.nav-text h5{
+    margin-bottom: -2px;
+    max-width: 100px;
+    font-size: 12px;
 }
 
 .nav-cart{
