@@ -197,5 +197,55 @@ body{
     background: white;
 }
 
+.reviews-section {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.reviews-section h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+.review {
+    border-bottom: 1px solid #ddd;
+    padding: 20px 0;
+}
+
+.review:last-child {
+    border-bottom: none;
+}
+
+.review-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.review-author {
+    font-weight: bold;
+    color: #333;
+}
+
+.review-rating {
+    display: flex;
+}
+
+.star {
+    color: #f0c14b;
+    font-size: 20px;
+    margin-right: 2px;
+}
+
+.review-body {
+    color: #555;
+}
+
 /* <span style="color:#007185; font-size: 18px;"> */
 /* <span style="color:#007185; font-size: 18px;"> */
