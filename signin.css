@@ -97,7 +97,8 @@ body{
     font-size: 13px;
     background: #fff;
     border-radius: 5px;
-    border: 1px solid #c3c3c3;   
+    border: 1px solid #c3c3c3; 
+    cursor: pointer; 
 }
 
 .signin-signup-btn:hover{
