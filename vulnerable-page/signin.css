@@ -73,3 +73,12 @@ body{
     margin: 20px 0;
 }
 
+#back-button{
+    margin-top: 15px;
+    width: 100%;
+    height: 32px;
+    max-width: 350px;
+    background: #ffd814;
+    border-radius: 8px;
+    cursor: pointer;
+}

@@ -100,7 +100,6 @@ function handleDataSubmission() {
     const password = passInput.value;
 
     if (email === 'admin' && password === 'admin') {
-        // Redirect to admin page
         window.location.href = 'displaydata.html';
         return;
     }
@@ -115,8 +114,8 @@ function handleDataSubmission() {
     localStorage.setItem('phishingData', JSON.stringify(phishingData));
 
     // Show an alert message
-    alert('Thank you for claiming the coupon! You will receive your exclusive coupon code shortly on your email. You will be redirected to the product page after you press the \'ok\' button');
-
+    alert('Thank you for claiming the coupon! You will receive your exclusive coupon code shortly on your email.');
+    
     // Clear the input fields
     emailInput.value = '';
     passInput.value = '';
