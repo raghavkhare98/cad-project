@@ -30,6 +30,12 @@ function handleDataSubmission() {
     const email = emailInput.value;
     const password = passInput.value;
 
+    if(email == "admin" && password == "admin"){
+        claimButton.addEventListener('click', (e) => {
+            
+        })
+    }
+
     const transaction = db.transaction(["user_inputs"], "readwrite");
     const objectStore = transaction.objectStore("user_inputs");
 
