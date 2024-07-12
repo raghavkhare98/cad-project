@@ -247,5 +247,22 @@ body{
     color: #555;
 }
 
-/* <span style="color:#007185; font-size: 18px;"> */
-/* <span style="color:#007185; font-size: 18px;"> */
+.review-input-container{
+    margin-top: 15px;
+}
+
+.review-input-container input{
+    padding: 5px 5px 100px 5px;
+    margin-top: 15px;
+    width: 100%;
+    color: black;
+}
+
+.review-input-container button{
+    margin-top: 15px;
+    height: 36px;
+    padding: 3px 8px;
+    width: 100px;
+    background: #ffd814;
+}
+
