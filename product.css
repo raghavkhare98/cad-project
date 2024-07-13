@@ -248,7 +248,13 @@ body{
 }
 
 .review-input-container{
-    margin-top: 15px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .review-input-container input{
@@ -264,5 +270,9 @@ body{
     padding: 3px 8px;
     width: 100px;
     background: #ffd814;
+}
+
+#review-submit-btn{
+    cursor: pointer;
 }
 
