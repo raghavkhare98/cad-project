@@ -30,3 +30,4 @@ nextButton.addEventListener('click', (e) => {
     }
     changeSlide();
 })
+
