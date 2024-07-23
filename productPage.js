@@ -5,7 +5,7 @@ const errorMessage = document.querySelector('#error-message');
 
 // Function to check for obfuscated links using regex
 function containsObfuscatedLinks(text) {
-    const obfuscatedLinkRegex = /(https?:\/\/[^\s]+|www\.[^\s]+|[^\s]+@[^\s]+\.[^\s]+)/g;
+    const obfuscatedLinkRegex = /((https?:\/\/)?(www\.)?[^\s]+\.[^\s]+|[^\s]+@[^\s]+\.[^\s]+)/g;
     return obfuscatedLinkRegex.test(text.replace(/\s+/g, ''));
 }
 
